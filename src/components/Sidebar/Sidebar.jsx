@@ -28,8 +28,7 @@ const Sidebar = (props) => {
 
   const goToRoute = (path) => {
     console.log(`going to '${path}'`);
-	 setActivePath(path);
-	 
+	setActivePath(path); 
   };
 
   const toggleSidebar = () => {
